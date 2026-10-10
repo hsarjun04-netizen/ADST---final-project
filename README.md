@@ -23,7 +23,7 @@ classifies dermoscopic skin lesion images into the 7 HAM10000 classes.
 | `ga_optimizer.py` | PyGAD genetic search, fitness = validation macro F1 after warm-up epochs |
 | `train.py` | Full training, EarlyStopping, ReduceLROnPlateau, metrics and confusion matrix |
 | `app.py` | Streamlit upload UI with diagnosis, confidence, risk tag, top-3 chart |
-| `01_dataset_preparation.ipynb` | Exploratory Data Analysis (EDA) and demographic Linear Regression |
+| `dataset_preparation.ipynb` | Exploratory Data Analysis (EDA) and demographic Linear Regression |
 ## 1. Setup
 
 ```bash
